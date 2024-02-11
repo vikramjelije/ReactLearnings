@@ -1,20 +1,3 @@
 {
-  "books": [
-    {
-      "title": "H Potter",
-      "id": 1
-    },
-    {
-      "title": "dxzfsdfsdf",
-      "id": 2
-    },
-    {
-      "title": "sdfsfsdfsd",
-      "id": 3
-    },
-    {
-      "title": "sdsdfsd",
-      "id": 4
-    }
-  ]
+  "books": []
 }
