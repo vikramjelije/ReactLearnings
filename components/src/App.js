@@ -1,28 +1,25 @@
-import Button from "./Button";
-import { FaBell } from "react-icons/fa";
+import Accordion from "./components/Accordion";
 
 function App() {
+  const items = [
+    {
+      id: 1,
+      label: "Can I use a React on a Project?",
+      content:"You can use React on any project that you want."
+    },
+    {
+      id: 2,
+      label: "Can I use a Tailwind css on a Project?",
+      content:"You can use Tailwind css  on any project that you want."
+    },
+    {
+      id: 3,
+      label: "Can I use a Next js on a Project?",
+      content:"You can use Next js on any project that you want."
+    }
+  ]
   return (
-    <div>
-      <div>
-        <Button primary rounded className="mb-5"><FaBell /> Click here!</Button>
-      </div>
-      <div>
-        <Button primary rounded outline>Click here!</Button>
-      </div>
-      <div>
-        <Button secondary>Click</Button>
-      </div>
-      <div>
-        <Button success>Click</Button>
-      </div>
-      <div>
-        <Button warning>Click</Button>
-      </div>
-      <div>
-        <Button danger>Click</Button>
-      </div>
-    </div>
+    <Accordion items={items}/>
   );
 }
 
