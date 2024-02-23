@@ -16,8 +16,6 @@ function Button({ children, primary, secondary, success, warning, danger, rounde
         'text-red-500': outline && danger
     });
 
-    console.log(classes)
-
     return (
         <div>
             <button {...rest} className={classes} >{children}</button>
